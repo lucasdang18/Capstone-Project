@@ -1,6 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
+
+/* footer */
+footer {
+  color: #696969;background-color: #111111;
+}
+footer li {
+  text-decoration: none;
+  list-style: none;
+}
+.footer-top h6 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 25px;
+  margin-left: 28px;
+}
+.footer-top a {
+  display: block;
+  text-decoration: none;
+  color: #696969;
+  margin-top: 10px;
+}
+.footer-top li:hover a,
+.footer-left a:hover span {color: #fff;text-decoration: underline; }
+
+.footer-top i {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.footer-end span:hover { text-decoration: underline; cursor: pointer;}
