@@ -29,47 +29,157 @@
       crossorigin="anonymous"
     />
     <!-- BOOTSTRAP CSS -->
+    <!--lightbos css-->
+    <link rel="stylesheet" href="../capstone/css/lightbox.min.css">
 
     <!-- STYLE CSS -->
     <link rel="stylesheet" href="./css/reponsive.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- STYLE CSS -->
   </head>
-  <body>
+  <body>  <!-- HEADER -->
+    <header class=" ">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <a href="./index.html">Pooch Care </a>
+          </div>
+          <ul class="nav justify-content-center nav1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Blog</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Landing Page</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <div class="change-light">
+              <li>
+                <i class="fa-regular fa-moon"></i>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+    <!-- toggle right -->
+    <div class="toggle">
+      <i class="fa-solid fa-angles-right"></i>
+    </div>
+    <!-- toggle right -->
+
+    <!-- right-bar -->
+    <div class="right-bar">
+      <div class="item">
+        <a href="#"><i class="fa-solid fa-arrow-left"></i><p>Back</p></a>
+      </div>
+      <div class="item">
+        <a href="https://w3layouts.com/template/pooch-care-website-template/"><i class="fa-solid fa-download"></i><p>Download</p></a>
+      </div>
+      <div class="item">
+        <a href="https://w3layouts.com/checkout/?add-to-cart=4763800000001057"><i class="fa-solid fa-cart-shopping"></i><p>Buy</p></a>
+      </div>
+    </div>
+    <!-- right-bar -->
+
+    <!-- BREADCRUMD -->
+    <section class="bc">
+      <div class="container">
+        <div class="bc-content p-5">
+          <h2>About Us</h2>
+          <ul class="breadcrumb mt-3">
+            <li><a href="./index.html">Home</a></li>
+            <li class="active">
+              <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>
+              About
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- BREADCRUMD -->
+    
     <!-- them hinh anh -->
     <section class="galery py-5">
         <div class="container">
-            <div class="header my-5">
+            <div class="header my-5 text-center">
                 <p>VIEW GALLERY</p>
                 <h3>Latest Gallery</h3>
             </div>
             <div class="galery-content d-grid">
                 <div class="galery-item">
+                  <a href="./img/g1.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g1.jpg" alt="">
+                  </a>
+                    
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g2.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g2.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g3.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g3.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g4.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g4.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g5.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g5.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g6.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g6.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g7.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g7.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g8.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g8.jpg" alt="">
+                  </a>
                 </div>
                 <div class="galery-item">
+                  <a href="./img/g9.jpg" data-lightbox="data-set" data-title="Lorem ipsum dolor sit amet.">
                     <img class="img-fluid" src="./img/g9.jpg" alt="">
+                  </a>
                 </div>
             </div>
         </div>
@@ -139,5 +249,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./css/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
