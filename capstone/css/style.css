@@ -174,7 +174,9 @@ a.nav-link:before, a.dropdown-item:before{
 
 /* breadcrumb */
 /* Gallery  */
-.galery-content { grid-template-columns: repeat(3,1fr);gap: 30px;}
+.galery-content { 
+  
+  gap: 30px;}
 .galery-item img{ border-radius: 10px;}
 .galery-item { position: relative;
 overflow: hidden;}
@@ -217,7 +219,7 @@ overflow: hidden;}
 .col-10 p:hover{ text-decoration: underline;color: #189a46;}
 
 /*  BLOG */
-.blog-content {grid-template-columns: repeat(3,1fr); gap: 30px;}
+.blog-content { gap: 30px;}
 .blog .blog-item { border-radius: 10px;background-color: #fff;margin-bottom: 15px; transition: all 0.5s;}
 .blog .blog-item img {
   border-radius: 10px 10px 0 0 ;
