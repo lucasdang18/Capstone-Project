@@ -462,6 +462,10 @@ a.dropdown-item:before {
   background-color: rgba(147, 107, 232, 0.05);
   padding: 100px;
 }
+.home-feedback .item-feedback {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
 .home-feedback .title-feedback i {
   color: #189a46;
   font-size: 24px;
@@ -491,6 +495,10 @@ a.dropdown-item:before {
 /* about */
 .about-us {
   padding: 80px;
+}
+.about-us h6 {
+  font-size: 20px;
+  font-weight: 500;
 }
 .about-history {
   background-image: url(../img/banner2.jpg);
@@ -528,33 +536,38 @@ a.dropdown-item:before {
   font-weight: 600;
 }
 
-.about-reason{
+.about-reason {
   padding: 80px;
 }
-.about-reason .content-left img{
+.about-reason .content-left img {
   width: 100%;
   border-radius: 10px;
 }
-.about-reason .content-right .ser-title{
-  margin:0;
+.about-reason .content-right .ser-title {
+  margin: 0;
 }
-.about-reason .content-right .icon i{
+.about-reason .content-right .icon i {
   font-size: 30px;
   color: #189a46;
 }
 
-.about-team{
+.about-team {
   background-color: rgba(147, 107, 232, 0.05);
   padding: 100px 0;
 }
-.about-team .main .item{
+.about-team .main .item {
   padding: 10px;
 }
-.about-team .main .item img{
+.about-team .main .item:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+.about-team .main .item img {
   width: 100%;
   border-radius: 10px;
 }
-.about-team .main .main-social a{
+
+.about-team .main .main-social a {
   padding: 5px;
   border-radius: 5px;
   background: hwb(259deg 40% 18% / 5%);
@@ -565,7 +578,7 @@ a.dropdown-item:before {
   color: #189a46;
   font-size: 16px;
 }
-.about-team .main .main-social a:hover{
+.about-team .main .main-social a:hover {
   background-color: #189a46;
   color: #ffffff;
 }
@@ -573,11 +586,11 @@ a.dropdown-item:before {
 /* about */
 
 /* services */
-.services .content-photo img{
+.services .content-photo img {
   width: 100%;
   border-radius: 10px;
 }
-.services .content-photo-1{
+.services .content-photo-1 {
   display: flex;
   flex-direction: row-reverse;
 }
