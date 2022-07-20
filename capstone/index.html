@@ -47,16 +47,17 @@
     <!-- slick -->
 
     <!-- STYLE CSS -->
-    <link rel="stylesheet" href="./css/reponsive.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reponsive.css" />
     <!-- STYLE CSS -->
   </head>
   <body>
     <!-- them hinh anh -->
     <!-- HEADER -->
-    <header class="header">
+    <header class="header-1 header ">
       <div class="container-fluid">
         <div class="header-content">
+          <i class="bar fa-solid fa-bars "></i>
           <div class="logo">
             <a href="./index.html">Pooch Care </a>
           </div>
@@ -101,6 +102,7 @@
               </li>
             </div>
           </ul>
+          
         </div>
       </div>
     </header>
@@ -697,28 +699,24 @@
     </section>
     <!-- subscribe -->
 
-    <footer>
-      <div class="footer-top">
+    <footer >
+      <div class="footer-top ">
         <div class="container pt-4 pb-5">
-          <div class="row">
+          <div class="row ">
             <div class="col-6 footer-left">
-              <h6 class="ms-0">Contact information</h6>
+              <h6 class="ms-0"  >Contact information</h6>
               <a href="">
-                <strong>Address</strong> : #135 block, Barnard St. Brooklyn,
-                London 10036, UK</a
+                <strong>Address</strong> : #135 block, Barnard St. Brooklyn, London
+                10036, UK</a
               >
-              <a href="+(12)234-11-24">
-                <strong>Phone </strong> : <span>+(12)234-11-24</span>
-              </a>
-              <a href="example@mail.com">
-                <strong>Email </strong> : <span> example@mail.com</span>
-              </a>
+              <a href="+(12)234-11-24"> <strong>Phone </strong> :  <span>+(12)234-11-24</span> </a>
+              <a href="example@mail.com"> <strong>Email </strong> : <span> example@mail.com</span> </a>
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-dribbble"></i>
               <i class="fa-brands fa-google"></i>
             </div>
-            <div class="col-6">
+            <div class="col-6 footer-right">
               <div class="row">
                 <div class="col-4">
                   <h6>Company</h6>
@@ -752,7 +750,7 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="text-info" />
       <div class="footer-end text-center">
         <p class="py-4">
           © 2020 Pooch Care. All Rights Reserved. Design by
@@ -760,6 +758,9 @@
         </p>
       </div>
     </footer>
+    <div class="video mt-0 text-center d-none d-md-block">
+      <iframe  width="801" height="450" src="https://www.youtube.com/embed/RlOdkhURbTE" title="[Vietsub] Giá Y - Ngô Hồng Phi/嫁衣 - 吴虹飞" frameborder="0"  controls autoplay></iframe>
+    </div>
 
     <!-- slick -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -795,8 +796,8 @@
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
               dots: true,
             },
@@ -804,15 +805,17 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              dots: false,
             },
           },
           {
-            breakpoint: 480,
+            breakpoint: 580,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
+              dots: false,
             },
           },
         ],
